@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/small_card_gradient"
+        android:backgroundTint="#C6B9FF"
+        android:layout_weight="1.6"
+        android:paddingStart="12dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extra Rewards!"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Download high reward \napp and win coins"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp">
+
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="-5dp"
+                android:background="@drawable/small_card_gradient"
+                android:rotation="45">
+
+                <ImageView
+                    android:layout_width="151dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="-20dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:rotation="-45"
+                    android:src="@drawable/mobile" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

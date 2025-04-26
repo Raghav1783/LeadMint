@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:weightSum="2"
+    android:backgroundTint="#FFC600"
+    android:gravity="center_vertical"
+    android:background="@drawable/small_card_gradient">
+
+    <!-- Left Side: Text Content -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MyChips Rewards"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Games and Win\nhigh rewards"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <!-- Right Side: Rotated Image Container -->
+    <FrameLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:rotation="15"
+        android:backgroundTint="#FFE899"
+        android:background="@drawable/small_card_gradient"
+        >
+
+        <ImageView
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:rotation="-15"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mychip" />
+    </FrameLayout>
+
+</LinearLayout>

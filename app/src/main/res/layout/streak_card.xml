@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/small_card_gradient"
+        android:orientation="vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Streak"
+            android:textSize="21dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/small_card_gradient"
+                android:backgroundTint="#C6B9FF"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:src="@drawable/fire" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 1"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/small_card_gradient"
+                android:backgroundTint="#C6B9FF"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:src="@drawable/fire" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 2"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/small_card_gradient"
+                android:backgroundTint="#C6B9FF"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:src="@drawable/fire"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 3"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/small_card_gradient"
+                android:backgroundTint="#C6B9FF"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:src="@drawable/fire"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 4"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/small_card_gradient"
+                android:backgroundTint="#C6B9FF"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="47dp"
+                    android:src="@drawable/fire"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Day 5"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/small_card_gradient"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_weight="1"
+
+                android:backgroundTint="#5552FF">
+
+                <!-- Left: Text Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Big Win!"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 6"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="20"
+                    android:backgroundTint="#C6B9FF"
+                    android:background="@drawable/small_card_gradient"
+                    android:layout_marginEnd="-33dp"
+                    android:layout_marginBottom="-10dp"
+                    android:gravity="top|start">
+
+                    <ImageView
+                        android:scaleType="fitCenter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:rotation="-20"
+                        android:src="@drawable/firesmile" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/small_card_gradient"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:backgroundTint="#FFC600"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1">
+
+                <!-- Left: Text Content -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jackpot"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 7"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="20"
+                    android:backgroundTint="#FFE899"
+                    android:background="@drawable/small_card_gradient"
+                    android:layout_marginEnd="-33dp"
+                    android:layout_marginBottom="-10dp"
+                    android:gravity="start">
+
+                    <ImageView
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:rotation="-20"
+                        android:src="@drawable/yellow_fire" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
